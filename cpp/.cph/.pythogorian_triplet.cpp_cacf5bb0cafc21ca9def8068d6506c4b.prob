@@ -1,0 +1,1 @@
+{"name":"Local: pythogorian_triplet","url":"/home/sankalp/Desktop/cpp/pythogorian_triplet.cpp","tests":[{"id":1604742920926,"input":"8 6 10","output":"pythogorian triplet"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/Desktop/cpp/pythogorian_triplet.cpp","group":"local","local":true}

@@ -1,30 +1,38 @@
+
 from collections import deque
-from dfs_traversal import InOrder
+
+'''
+# Node Class:
+class Node:
+    def init(self,val):
+        self.data = val
+        self.left = None
+        self.right = None
+'''
 
 
-def delete(root, val):
-    if root is None:
-        return root
-    else:
-        if root.data == val:
-            if root.left is None and root.right is None:
-                root = None
-            elif root.left is None:
-                root = root.right
-            elif root.right is None:
-                root = root.left
-            else:
-                temp = root.right
-                while temp.left is not None:
-                    temp = temp.left
-                root.data = temp.data
-                root.right = delete(root.right, temp.data)
+def InOrder(root):
+    if root:
+        InOrder(root.left)
+        print(root.data, end=" ")
+        InOrder(root.right)
+    return []
 
-        elif root.data < val:
-            delete(root.right, val)
-        else:
-            delete(root.left, val)
-    return root
+
+def preorder(root):
+    if root:
+        print(root.data, end=" ")
+        preorder(root.left)
+        preorder(root.right)
+    return []
+
+
+def postorder(root):
+    if root:
+        postorder(root.left)
+        postorder(root.right)
+        print(root.data, end=" ")
+    return []
 
 
 # driver code
@@ -97,10 +105,12 @@ if __name__ == "__main__":
     for _ in range(t):
         s = input()
         root = buildTree(s)
-        print("before deletion")
-        InOrder(root)
+        print("In order Traversal (left - root - right)")
+        res = InOrder(root)
         print()
-        to_delete = int(input("Enter value to delete: "))
-        print("after deletion")
-        root = delete(root, to_delete)
-        InOrder(root)
+        print("Pre order Traversal (root - left - right)")
+        res = preorder(root)
+        print()
+        print("Post order Traversal (left - right - root)")
+        res = postorder(root)
+        print()

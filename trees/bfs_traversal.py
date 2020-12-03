@@ -1,5 +1,6 @@
-
 from collections import deque
+
+# bfs is also called as level order traversal
 
 '''
 # Node Class:
@@ -11,31 +12,19 @@ class Node:
 '''
 
 
-def InOrder(root):
-    if root:
-        InOrder(root.left)
-        print(root.data, end=" ")
-        InOrder(root.right)
+def levelorder(root):
+    if root is None:
+        return []
+    queue = deque()
+    queue.append(root)
+    while (len(queue) != 0):
+        node = queue.popleft()
+        print(node.data, end=" ")
+        if node.left is not None:
+            queue.append(node.left)
+        if node.right is not None:
+            queue.append(node.right)
     return []
-
-
-def preorder(root):
-    if root:
-        print(root.data, end=" ")
-        preorder(root.left)
-        preorder(root.right)
-    return []
-
-
-def postorder(root):
-    if root:
-        postorder(root.left)
-        postorder(root.right)
-        print(root.data, end=" ")
-    return []
-
-
-# driver code
 
 
 class Node:
@@ -105,12 +94,6 @@ if __name__ == "__main__":
     for _ in range(t):
         s = input()
         root = buildTree(s)
-        print("In order Traversal (left - root - right)")
-        res = InOrder(root)
-        print()
-        print("Pre order Traversal (root - left - right)")
-        res = preorder(root)
-        print()
-        print("Post order Traversal (left - right - root)")
-        res = postorder(root)
+        print("Level order Traversal or breadth first traversal")
+        res = levelorder(root)
         print()

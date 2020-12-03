@@ -1,33 +1,4 @@
 from collections import deque
-from dfs_traversal import InOrder
-
-
-def delete(root, val):
-    if root is None:
-        return root
-    else:
-        if root.data == val:
-            if root.left is None and root.right is None:
-                root = None
-            elif root.left is None:
-                root = root.right
-            elif root.right is None:
-                root = root.left
-            else:
-                temp = root.right
-                while temp.left is not None:
-                    temp = temp.left
-                root.data = temp.data
-                root.right = delete(root.right, temp.data)
-
-        elif root.data < val:
-            delete(root.right, val)
-        else:
-            delete(root.left, val)
-    return root
-
-
-# driver code
 
 
 class Node:
@@ -90,17 +61,3 @@ def buildTree(s):
         i = i+1
         # print(q)
     return root
-
-
-if __name__ == "__main__":
-    t = int(input())
-    for _ in range(t):
-        s = input()
-        root = buildTree(s)
-        print("before deletion")
-        InOrder(root)
-        print()
-        to_delete = int(input("Enter value to delete: "))
-        print("after deletion")
-        root = delete(root, to_delete)
-        InOrder(root)

@@ -1,4 +1,4 @@
-from bfs_traversal import InOrder
+from dfs_traversal import InOrder
 
 
 class Node():

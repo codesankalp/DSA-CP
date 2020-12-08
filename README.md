@@ -1,11 +1,11 @@
 # DSA
 
-
 ![syllabus](https://github.com/codesankalp/DSA/blob/master/syllabus.jpeg?raw=true)
 
 # Competitive-Programming-Resources
 
 ## Problems & Tips
+
 - https://cses.fi/problemset/
 - https://cp-algorithms.com
 - https://atcoder.jp/contests/dp/tasks
@@ -25,7 +25,8 @@
 - https://www.hackerearth.com/blog/developers/7-steps-to-improve-your-data-structure-and-algorithm-skills/
 - https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
 
-## Platforms to Practice: 
+## Platforms to Practice:
+
 - http://codeforces.com/contests
 - https://www.codechef.com
 - https://leetcode.com
@@ -38,8 +39,8 @@
 - https://www.dailycodingproblem.com
 - https://www.urionlinejudge.com.br/judge/en/login
 
+## Problem Solving Books:
 
-## Problem Solving Books: 
 - A Path to Combinatorics for Undergraduates
 - Competitive Programmers Handbook - Antti Laaksonen - July 2018
 - Competitive Programming 3 - The New Lower Bound of Programming Contests
@@ -48,10 +49,11 @@
 - Fifty Challenging Problems in Probability. - Fredrick Mosteller
 - Guide to Competitive Programming - Learning and Improving Algorithms ThroughContests
 - How to Solve It - A New Aspect of Mathematical Method
-- Problem Books in Mathematics -  by K. Bencsath P.R. Halmos
+- Problem Books in Mathematics - by K. Bencsath P.R. Halmos
 - The Art and Craft of Problem Solving, 3rd Edition
 
 ## Video Tutorials
+
 - https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg
 - https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q
 - https://www.youtube.com/channel/UCfv8cds8AfIM3UZtAWOz6Gg
@@ -60,6 +62,9 @@
 - https://www.youtube.com/channel/UC9fDC_eBh9e_bogw87DbGKQ
 
 # Interview Prep
+
 - https://www.pramp.com/#/
 - https://interviewing.io
 - https://docs.google.com/document/d/1wUCqhVHydWiDk6FJdFLSMpgigNrGcs4OFZg0Wa7JGEw/
+
+https://www.codechef.com/problems/ELEVATR

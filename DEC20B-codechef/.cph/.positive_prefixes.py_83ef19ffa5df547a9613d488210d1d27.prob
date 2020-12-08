@@ -1,0 +1,1 @@
+{"name":"Local: positive_prefixes","url":"/home/sankalp/Desktop/DSA/DEC20B-codechef/positive_prefixes.py","tests":[{"id":1607108910287,"input":"5\n3 3\n5 3\n5 2\n4 2\n8 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/Desktop/DSA/DEC20B-codechef/positive_prefixes.py","group":"local","local":true}

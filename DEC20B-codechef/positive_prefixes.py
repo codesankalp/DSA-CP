@@ -15,8 +15,6 @@ for _ in range(int(input())):
             j += 1
         elif arr[i] < 0:
             arr[i] = -(arr[i])
-        else:
-            pass
     print(*arr)
     # n, k = list(map(int, input().split()))
     # ls = []

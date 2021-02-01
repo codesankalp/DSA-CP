@@ -66,5 +66,3 @@
 - https://www.pramp.com/#/
 - https://interviewing.io
 - https://docs.google.com/document/d/1wUCqhVHydWiDk6FJdFLSMpgigNrGcs4OFZg0Wa7JGEw/
-
-https://www.codechef.com/problems/ELEVATR

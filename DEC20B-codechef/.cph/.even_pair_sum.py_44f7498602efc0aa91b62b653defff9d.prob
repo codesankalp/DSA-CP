@@ -1,1 +1,0 @@
-{"name":"Local: even_pair_sum","url":"/home/sankalp/Desktop/DSA/DEC20B-codechef/even_pair_sum.py","tests":[{"id":1607106847146,"input":"4\n1 1\n2 3\n4 6\n8 9","output":"1\n3\n12\n36"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sankalp/Desktop/DSA/DEC20B-codechef/even_pair_sum.py","group":"local","local":true}

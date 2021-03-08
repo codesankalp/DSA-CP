@@ -1,3 +1,4 @@
+```bash
 .
 ├── asked
 │   ├── algorithm_test_challenge1.py
@@ -165,4 +166,4 @@
 │   └── word_count.py
 └── README.md
 
-14 directories, 151 files
+```

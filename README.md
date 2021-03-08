@@ -1,68 +1,168 @@
-# DSA
+.
+├── asked
+│   ├── algorithm_test_challenge1.py
+│   ├── check_series.py
+│   ├── connected_graph.py
+│   ├── group_of_numbers.py
+│   ├── hercules_maze.py
+│   ├── juiceshake .py
+│   ├── meandering_array.py
+│   └── special_fib.py
+├── codechef
+│   ├── chef_and_divisors.py
+│   ├── codechef_college_contest
+│   │   ├── ball_game.cpp
+│   │   ├── bucket.cpp
+│   │   └── ravi1234.py
+│   ├── DEC20B-codechef
+│   │   ├── catch_thief.py
+│   │   ├── even_pair_sum.py
+│   │   ├── hail_xor
+│   │   ├── hail_xor.c
+│   │   ├── hail_xor.cpp
+│   │   ├── hail_xor.py
+│   │   ├── min_attendance.py
+│   │   ├── positive_prefixes.py
+│   │   ├── sdstring.py
+│   │   ├── vaccine1.py
+│   │   └── vaccine2.py
+│   ├── mismeeta.py
+│   ├── random
+│   │   ├── pcycle.py
+│   │   └── rightri.py
+│   └── sum.py
+├── codeforces
+│   ├── codeforces_contest
+│   │   ├── k_largest.cpp
+│   │   ├── k_largest_value.py
+│   │   └── pekora_and_trampoline.py
+│   ├── frog_sort.py
+│   ├── ladder
+│   │   ├── beautifulmatrix.py
+│   │   ├── beautiful_year.py
+│   │   ├── borze.py
+│   │   ├── codeforces-275A-lightsout.py
+│   │   ├── codeforces-amusing-joke.py
+│   │   ├── codeforces-bit++.py
+│   │   ├── codeforces-boy-or-girl.py
+│   │   ├── codeforces-cupboard.py
+│   │   ├── codeforces-dima-and-fiends.py
+│   │   ├── codeforces-dima-and-friends.py
+│   │   ├── codeforces-drinks.py
+│   │   ├── codeforces-effective-approach.py
+│   │   ├── codeforces-general-visit.py
+│   │   ├── codeforces-helpful-maths.py
+│   │   ├── codeforces-horseshoe-on-other-hoof.py
+│   │   ├── codeforces-hq9+.py
+│   │   ├── codeforces-I_love_%username%.py
+│   │   ├── codeforces-insomnia-cure.py
+│   │   ├── codeforces-jzzhu-and-children-2.py
+│   │   ├── codeforces-jzzhu-and-children.py
+│   │   ├── codeforces-panoramix-prediction.py
+│   │   ├── codeforces-parallelepiped.py
+│   │   ├── codeforces-perfect-permutatiom.py
+│   │   ├── codeforces-petr-and-book.py
+│   │   ├── codeforces-petya-and-strings.py
+│   │   ├── codeforces-soft-drinking.py
+│   │   ├── codeforces-stone-on-table.py
+│   │   ├── codeforces-supercentral-point.py
+│   │   ├── codeforces-team.py
+│   │   ├── codeforces-tram.py
+│   │   ├── codeforces-ultra-fast-mathematician.py
+│   │   ├── codeforces-way-too-long-words.py
+│   │   ├── codeforces-wordcapitalization.py
+│   │   ├── codeforces-Word.py
+│   │   ├── domino_piling.py
+│   │   ├── lights_out.py
+│   │   ├── longest_regular_bracket_sequence.py
+│   │   ├── nearly-lucky-number.py
+│   │   ├── queueschool.py
+│   │   └── youngphysicist.py
+│   ├── puzzles_codeforces_337A.py
+│   └── sum_of_cubes.py
+├── cpp
+│   ├── armstrong
+│   ├── armstrong.cpp
+│   ├── array_manipulation
+│   ├── array_manipulation.cpp
+│   ├── check_prime
+│   ├── check_prime.cpp
+│   ├── input1.txt
+│   ├── left_rotation
+│   ├── left_rotation.cpp
+│   ├── monk_rotation
+│   ├── monk_rotation.cpp
+│   ├── output1.txt
+│   ├── prime
+│   ├── prime.cpp
+│   ├── pythogorian_triplet.cpp
+│   ├── reverse
+│   ├── reverse.cpp
+│   ├── sparse_arrays
+│   └── sparse_arrays.cpp
+├── dynamic_programming
+│   └── fibonnaci.py
+├── gfg
+│   ├── kadane_algorithm.py
+│   ├── Recursion
+│   │   ├── array_sort_check.py
+│   │   ├── binary_search.py
+│   │   ├── checkPal.cpp
+│   │   ├── countOccurence.cpp
+│   │   ├── count_zero.cpp
+│   │   ├── first_occurence.py
+│   │   ├── josephus.py
+│   │   ├── length_of_string.py
+│   │   ├── mutilplication without.cpp
+│   │   ├── palindrome_checker.py
+│   │   ├── power by recursion.cpp
+│   │   ├── print by rec.cpp
+│   │   ├── print_integers.py
+│   │   ├── problem 1.cpp
+│   │   ├── problem2.cpp
+│   │   ├── remove_consecutive.py
+│   │   ├── removeDup.cpp
+│   │   ├── remove.py
+│   │   ├── replace.py
+│   │   ├── replaceWord.cpp
+│   │   ├── string_2_int.cpp
+│   │   ├── string_to_int.py
+│   │   ├── subsequence.py
+│   │   ├── Subsquence_of_string.cpp
+│   │   └── sum of digits.cpp
+│   └── trees
+│       ├── anary_tree
+│       ├── anary_tree.cpp
+│       ├── base.py
+│       ├── bfs_traversal.py
+│       ├── binary_tree_to_dll.py
+│       ├── bst_deletion.py
+│       ├── bst_insertion_and_search.py
+│       ├── bt_to_dll.py
+│       ├── check_balanced_bt.py
+│       ├── check_binary_trees_same.py
+│       ├── check_children_sum.py
+│       ├── check_tree_is_bst.py
+│       ├── deletion_in_bt.py
+│       ├── dfs_traversal.py
+│       ├── duplicate_subtree_in_bt.py
+│       ├── height_of_tree.py
+│       ├── lca.py
+│       ├── nodes_at_level_k.py
+│       ├── number_of_turns_in_bt.py
+│       ├── todo.txt
+│       ├── two_mirror_trees.py
+│       └── vertical_sum.py
+├── random
+│   ├── decode_script.py
+│   ├── dense_array.py
+│   ├── equalize_array.py
+│   ├── rectangular_square.py
+│   ├── saddle.py
+│   ├── spiral-1.py
+│   ├── spiral-2.py
+│   ├── string_generation.py
+│   └── word_count.py
+└── README.md
 
-![syllabus](https://github.com/codesankalp/DSA/blob/master/syllabus.jpeg?raw=true)
-
-# Competitive-Programming-Resources
-
-## Problems & Tips
-
-- https://cses.fi/problemset/
-- https://cp-algorithms.com
-- https://atcoder.jp/contests/dp/tasks
-- https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions
-- https://twchen.gitbook.io/leetcode/
-- https://www.pramp.com/#/
-- https://docs.google.com/document/d/1wUCqhVHydWiDk6FJdFLSMpgigNrGcs4OFZg0Wa7JGEw/edit
-- https://www.hackerearth.com/practice/?utm_medium=referral&utm_campaign=Algodsblog&utm_source=slack
-- https://interviewing.io
-- https://www.quora.com/What-are-the-best-ways-to-master-dynamic-programming/answer/Sameer-Gulati-3
-- https://www.quora.com/How-do-I-get-good-at-math-for-competitive-programming/answer/Sameer-Gulati-3
-- https://www.quora.com/How-can-I-be-good-at-graph-theory-based-programming-problems-in-competitive-programming/answer/Sameer-Gulati-3
-- https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3?c
-- https://leetcode.com/discuss/general-discussion/651719/how-to-solve-dp-string-template-and-4-steps-to-be-followed
-- https://technicalbattle.blogspot.com/2020/05/best-blogs-on-codeforces-links-for-best.html
-- https://petr-mitrichev.blogspot.com
-- https://www.hackerearth.com/blog/developers/7-steps-to-improve-your-data-structure-and-algorithm-skills/
-- https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
-
-## Platforms to Practice:
-
-- http://codeforces.com/contests
-- https://www.codechef.com
-- https://leetcode.com
-- https://atcoder.jp/contests/
-- https://www.topcoder.com
-- https://www.spoj.com/users/lebron/
-- https://www.hackerrank.com/dashboard
-- https://projecteuler.net/archives
-- https://www.hackerearth.com/challenges/
-- https://www.dailycodingproblem.com
-- https://www.urionlinejudge.com.br/judge/en/login
-
-## Problem Solving Books:
-
-- A Path to Combinatorics for Undergraduates
-- Competitive Programmers Handbook - Antti Laaksonen - July 2018
-- Competitive Programming 3 - The New Lower Bound of Programming Contests
-- Cracking the Coding Interview 189 Programming Questions and Solutions
-- Elements of Programming Interviews - The Insider's Guide - Adnan Aziz, Tsung-Hsien Lee, Amit Prakash
-- Fifty Challenging Problems in Probability. - Fredrick Mosteller
-- Guide to Competitive Programming - Learning and Improving Algorithms ThroughContests
-- How to Solve It - A New Aspect of Mathematical Method
-- Problem Books in Mathematics - by K. Bencsath P.R. Halmos
-- The Art and Craft of Problem Solving, 3rd Edition
-
-## Video Tutorials
-
-- https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg
-- https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q
-- https://www.youtube.com/channel/UCfv8cds8AfIM3UZtAWOz6Gg
-- https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA
-- https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw
-- https://www.youtube.com/channel/UC9fDC_eBh9e_bogw87DbGKQ
-
-# Interview Prep
-
-- https://www.pramp.com/#/
-- https://interviewing.io
-- https://docs.google.com/document/d/1wUCqhVHydWiDk6FJdFLSMpgigNrGcs4OFZg0Wa7JGEw/
+14 directories, 151 files

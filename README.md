@@ -34,9 +34,13 @@
 │   └── sum.py
 ├── codeforces
 │   ├── codeforces_contest
+│   │   ├── do-not-distract.py
 │   │   ├── k_largest.cpp
 │   │   ├── k_largest_value.py
-│   │   └── pekora_and_trampoline.py
+│   │   ├── not_adjacent_matrix.py
+│   │   ├── ordinary_numbers.py
+│   │   ├── pekora_and_trampoline.py
+│   │   └── same_differences.py
 │   ├── frog_sort.py
 │   ├── ladder
 │   │   ├── beautifulmatrix.py
@@ -155,8 +159,26 @@
 │       ├── two_mirror_trees.py
 │       └── vertical_sum.py
 ├── leetcode
-│   ├── reveal-cards-in-increasing-order.py
-│   └── sort_array_by_parity.py
+│   ├── array
+│   │   ├── count-good-triplets.py
+│   │   ├── find-pivot-index.py
+│   │   ├── find-words-that-can-be-formed-by-characters.py
+│   │   ├── maximum-ascending-subarray-sum.py
+│   │   ├── number-of-submatrices-that-sum-to-target.py
+│   │   ├── pancake-sorting.py
+│   │   ├── partition-array-into-three-parts-with-equal-sum.py
+│   │   ├── reveal-cards-in-increasing-order.py
+│   │   ├── reverse-vowels-of-a-string.py
+│   │   ├── sort_array_by_parity.py
+│   │   └── xor-operation-in-an-array.py
+│   ├── queue
+│   │   ├── design-circular-queue.py
+│   │   └── number-of-recent-calls.py
+│   └── stack
+│       ├── baseball-game.py
+│       ├── design-a-stack-with-increment-operation.py
+│       ├── min-stack.py
+│       └── remove-outermost-parenthesis.py
 ├── random
 │   ├── decode_script.py
 │   ├── dense_array.py
@@ -173,5 +195,5 @@
 │   └── word_count.py
 └── README.md
 
-15 directories, 157 files
+18 directories, 176 files
 ```

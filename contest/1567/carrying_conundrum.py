@@ -1,32 +1,51 @@
 def sol(n):
-    if n<100:
-        if n%10 <=5:
-            print((n%10)*2)
+    i=0
+    n1=n2=""
+    for j in n:
+        if (i%2==0):
+            n1+=j
         else:
-            print((n%10)-1)
+            n2+=j
+        i+=1
+    # print(n1, n2)
+    if len(n2)==0:
+        return int(n1)-1
+    return (int(n1)+1)*(int(n2)+1)-2
+
 
 for _ in range(int(input())):
-    n = int(input())
-    ls = []
-    for i in range(1,10):
-        ls.append((i, n%10**i))
-        if n%(10**i)==n:
-            print(n%10**i, i, n)
-            break
-    print(ls[:-1:])
-    # for i in ls[:-1:]:
-    if n<=100:
-        if n%10 <=5:
-            if n%10==0:
-                print(9)
-            else:
-                print((n%10)*2)
-        else:
-            print((n%10)-1)
-    # while ()
+    n = input()
+    print(sol(n))
+
+# def sol(n):
+#     if n<100:
+#         if n%10 <=5:
+#             print((n%10)*2)
+#         else:
+#             print((n%10)-1)
+
+# for _ in range(int(input())):
+#     n = int(input())
+#     ls = []
+#     for i in range(1,10):
+#         ls.append((i, n%10**i))
+#         if n%(10**i)==n:
+#             print(n%10**i, i, n)
+#             break
+#     print(ls[:-1:])
+#     # for i in ls[:-1:]:
+#     if n<=100:
+#         if n%10 <=5:
+#             if n%10==0:
+#                 print(9)
+#             else:
+#                 print((n%10)*2)
+#         else:
+#             print((n%10)-1)
+#     # while ()
 
 
-# 4 4
+# # 4 4
 # 5 3
 # 6 2
 # 7 1

@@ -1,5 +1,9 @@
-```bash
+```tree
 .
+├── a2oj
+│   └── A
+│       ├── string_task.py
+│       └── watermelon.py
 ├── asked
 │   ├── algorithm_test_challenge1.py
 │   ├── check_series.py
@@ -34,13 +38,17 @@
 │   └── sum.py
 ├── codeforces
 │   ├── codeforces_contest
+│   │   ├── array_reordering.py
+│   │   ├── color_the flag.py
 │   │   ├── do-not-distract.py
+│   │   ├── fair_playoff.py
 │   │   ├── k_largest.cpp
 │   │   ├── k_largest_value.py
 │   │   ├── not_adjacent_matrix.py
 │   │   ├── ordinary_numbers.py
 │   │   ├── pekora_and_trampoline.py
-│   │   └── same_differences.py
+│   │   ├── same_differences.py
+│   │   └── unstable_strings.py
 │   ├── frog_sort.py
 │   ├── ladder
 │   │   ├── beautifulmatrix.py
@@ -85,6 +93,19 @@
 │   │   └── youngphysicist.py
 │   ├── puzzles_codeforces_337A.py
 │   └── sum_of_cubes.py
+├── contest
+│   ├── 1562
+│   │   ├── miracle_and_sl.py
+│   │   └── scenes_from_mem.py
+│   ├── 1566
+│   │   ├── max_mex.py
+│   │   ├── median_max.py
+│   │   ├── min_mex.py
+│   │   └── s_arr.py
+│   └── 1567
+│       ├── carrying_conundrum.py
+│       ├── domino_disaster.py
+│       └── mex_or_mixup.py
 ├── cpp
 │   ├── armstrong
 │   ├── armstrong.cpp
@@ -108,6 +129,7 @@
 ├── dynamic_programming
 │   └── fibonnaci.py
 ├── gfg
+│   ├── elements_in_range.py
 │   ├── kadane_algorithm.py
 │   ├── Recursion
 │   │   ├── array_sort_check.py
@@ -158,7 +180,18 @@
 │       ├── todo.txt
 │       ├── two_mirror_trees.py
 │       └── vertical_sum.py
+├── icpc_kanpur
+│   ├── a.py
+│   ├── new_file.py
+│   ├── s.cpp
+│   ├── sorting_Again.py
+│   └── splash_rain.py
+├── icpc_mock
+│   ├── chess.py
+│   ├── covid.py
+│   └── god.py
 ├── leetcode
+│   ├── 4.median-of-two-sorted-arrays.py
 │   ├── array
 │   │   ├── count-good-triplets.py
 │   │   ├── find-pivot-index.py
@@ -171,6 +204,8 @@
 │   │   ├── reverse-vowels-of-a-string.py
 │   │   ├── sort_array_by_parity.py
 │   │   └── xor-operation-in-an-array.py
+│   ├── linkedlist
+│   │   └── add_two_numbers.py
 │   ├── queue
 │   │   ├── design-circular-queue.py
 │   │   └── number-of-recent-calls.py
@@ -194,6 +229,4 @@
 │   ├── string_generation.py
 │   └── word_count.py
 └── README.md
-
-18 directories, 176 files
 ```

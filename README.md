@@ -19,6 +19,11 @@
 │   │   ├── ball_game.cpp
 │   │   ├── bucket.cpp
 │   │   └── ravi1234.py
+│   ├── csns2021
+│   │   ├── a.cpp
+│   │   ├── farmers_of_wasseypur.py
+│   │   ├── games_of_wasswypur.py
+│   │   └── max_damage.py
 │   ├── DEC20B-codechef
 │   │   ├── catch_thief.py
 │   │   ├── even_pair_sum.py
@@ -102,10 +107,26 @@
 │   │   ├── median_max.py
 │   │   ├── min_mex.py
 │   │   └── s_arr.py
-│   └── 1567
-│       ├── carrying_conundrum.py
-│       ├── domino_disaster.py
-│       └── mex_or_mixup.py
+│   ├── 1567
+│   │   ├── carrying_conundrum.py
+│   │   ├── domino_disaster.py
+│   │   └── mex_or_mixup.py
+│   ├── 2022_is_near
+│   │   ├── A_Integer_Diversity.py
+│   │   ├── B_Mirror_in_the_String.cpp
+│   │   ├── B_Mirror_in_the_String.py
+│   │   └── H_Keep_XOR_Low.py
+│   ├── A_Stable_Arrangement_of_Rooks.py
+│   ├── B_Integers_Shop.py
+│   ├── codechef_dec_30
+│   │   ├── Again_XOR_problem.py
+│   │   ├── Count_Number_of_Peaks.py
+│   │   ├── Maximum_Factors_Problem.py
+│   │   └── Sum_this_up.py
+│   └── codechef_jan5
+│       ├── Akash_and_Grid.py
+│       ├── And_Or_Union.py
+│       └── ChefWM.py
 ├── cpp
 │   ├── armstrong
 │   ├── armstrong.cpp
@@ -191,7 +212,12 @@
 │   ├── covid.py
 │   └── god.py
 ├── leetcode
+│   ├── 34.find-first-and-last-position-of-element-in-sorted-array.py
+│   ├── 41.first-missing-positive.py
+│   ├── 49.group-anagrams.py
 │   ├── 4.median-of-two-sorted-arrays.py
+│   ├── 647.palindromic-substrings.py
+│   ├── 780.reaching-points.py
 │   ├── array
 │   │   ├── count-good-triplets.py
 │   │   ├── find-pivot-index.py
@@ -214,6 +240,7 @@
 │       ├── design-a-stack-with-increment-operation.py
 │       ├── min-stack.py
 │       └── remove-outermost-parenthesis.py
+├── my_findings.md
 ├── random
 │   ├── decode_script.py
 │   ├── dense_array.py
@@ -229,4 +256,6 @@
 │   ├── string_generation.py
 │   └── word_count.py
 └── README.md
+
+31 directories, 225 files
 ```

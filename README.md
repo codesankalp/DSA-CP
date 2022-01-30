@@ -1,4 +1,4 @@
-```tree
+```
 .
 ├── a2oj
 │   └── A
@@ -123,10 +123,18 @@
 │   │   ├── Count_Number_of_Peaks.py
 │   │   ├── Maximum_Factors_Problem.py
 │   │   └── Sum_this_up.py
-│   └── codechef_jan5
-│       ├── Akash_and_Grid.py
-│       ├── And_Or_Union.py
-│       └── ChefWM.py
+│   ├── codechef_jan5
+│   │   ├── Akash_and_Grid.py
+│   │   ├── And_Or_Union.py
+│   │   └── ChefWM.py
+│   ├── cookoff_jan
+│   │   ├── Permutation_XOR_Sum.py
+│   │   ├── Prefix_Zeros.py
+│   │   └── Subarray_permutations.py
+│   └── exun2021
+│       ├── Aujasvit_and_the_Circle_Game.py
+│       ├── Sarthak_and_his_Magic_Grid.py
+│       └── Vedant_and_his_Hidden_Array.py
 ├── cpp
 │   ├── armstrong
 │   ├── armstrong.cpp
@@ -212,6 +220,8 @@
 │   ├── covid.py
 │   └── god.py
 ├── leetcode
+│   ├── 208.implement-trie-prefix-tree.py
+│   ├── 211.design-add-and-search-words-data-structure.py
 │   ├── 34.find-first-and-last-position-of-element-in-sorted-array.py
 │   ├── 41.first-missing-positive.py
 │   ├── 49.group-anagrams.py
@@ -255,7 +265,14 @@
 │   ├── spiral-2.py
 │   ├── string_generation.py
 │   └── word_count.py
-└── README.md
+├── README.md
+└── trie
+    ├── __pycache__
+    │   └── trie2.cpython-37.pyc
+    ├── trie2.py
+    ├── trie2_using_dict.py
+    ├── trie.py
+    └── trie_using_defaultdict.py
 
-31 directories, 225 files
+35 directories, 238 files
 ```
